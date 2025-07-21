@@ -1,4 +1,9 @@
-first = "Mosh"
-last = "Hamedani"
-full = f"{len(first)} {2+2}"
-print(full)
+course = "  python programming"
+print(course.upper())
+print(course.lower())
+print(course.title())
+print(course.rstrip())
+print(course.find("pro"))
+print(course.replace("p", "j"))
+print("pro" in course)
+print("swift" not in course)
