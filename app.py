@@ -1,6 +1,8 @@
-import math
+x = input("x : ")
+print(type(x))
+# y = x + 1
 
-print(round(2.9))
-
-print(abs(-2.9))
-print(math.ceil(2.2))
+# int(x)
+# float(x)
+# bool(x)
+# str(x)
