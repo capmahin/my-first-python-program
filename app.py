@@ -1,11 +1,10 @@
-temperature = 15
-if temperature > 30:
-    print("It's warm")
-    print("Drink water")
+age = 22
+if age >= 18:
+    message = "Eligible"
 
-elif temperature > 20:
-    print("It's nice")
 
 else:
-    print("It's cold")
-print("Done")
+    message = "Not eligible"
+
+message = "Eligible" if age >= 18 else "Not eligible"
+print(message)
